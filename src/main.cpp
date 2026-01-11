@@ -153,7 +153,7 @@ void oledOff() { display.ssd1306_command(SSD1306_DISPLAYOFF); }
 
 void initPeripherals() {
 #ifdef DEBUG_SERIAL
-  Serial.begin(115200);
+  Serial.begin(74880);
   delay(50);
   DBG("\nBoot...\n");
 #endif
