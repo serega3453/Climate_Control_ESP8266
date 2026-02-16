@@ -2138,7 +2138,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 58.42) (xy 179.07 58.42)
+			(xy 175.26 58.42) (xy 179.07 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2268,7 +2268,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 151.13) (xy 100.33 105.41)
+			(xy 100.33 139.7) (xy 100.33 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2278,7 +2278,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 147.32 63.5)
+			(xy 154.94 63.5) (xy 147.32 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2328,7 +2328,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 58.42) (xy 152.4 58.42)
+			(xy 147.32 58.42) (xy 154.94 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2368,7 +2368,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 63.5) (xy 179.07 63.5)
+			(xy 175.26 63.5) (xy 179.07 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2438,6 +2438,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 130.81) (xy 133.35 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e96c5a1-1205-4735-ae0d-2969f6b3fb1b")
+	)
+	(wire
+		(pts
 			(xy 133.35 107.95) (xy 167.64 107.95)
 		)
 		(stroke
@@ -2458,7 +2468,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 138.43) (xy 118.11 142.24)
+			(xy 118.11 138.43) (xy 118.11 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2548,6 +2558,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 149.86) (xy 100.33 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a873bb56-1f41-46aa-9d47-8d4dae64fd44")
+	)
+	(wire
+		(pts
 			(xy 80.01 115.57) (xy 102.87 115.57)
 		)
 		(stroke
@@ -2598,16 +2618,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 151.13) (xy 100.33 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c032bae4-04be-4f1e-ba92-77ad486fed59")
-	)
-	(wire
-		(pts
 			(xy 129.54 58.42) (xy 120.65 58.42)
 		)
 		(stroke
@@ -2615,6 +2625,16 @@
 			(type default)
 		)
 		(uuid "c1fb7513-609e-4e07-9603-d53f6d152cc9")
+	)
+	(wire
+		(pts
+			(xy 133.35 149.86) (xy 133.35 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab13a62-d91f-48a4-bee3-0a52bfc54e9b")
 	)
 	(wire
 		(pts
@@ -2665,26 +2685,6 @@
 			(type default)
 		)
 		(uuid "d533d836-16da-45b3-9662-1ee2127e737c")
-	)
-	(wire
-		(pts
-			(xy 135.89 130.81) (xy 135.89 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de436f5e-e4f2-4c83-8b4d-ffae5593b5e9")
-	)
-	(wire
-		(pts
-			(xy 133.35 130.81) (xy 135.89 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7ff8c32-9e7f-4f7d-9bbc-fea998544185")
 	)
 	(wire
 		(pts
@@ -2756,11 +2756,12 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 135.89 74.93 0)
+			(at 138.43 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2888,6 +2889,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1c88a9a5-f09f-48ad-8339-46a0e720c140")
 		(property "Reference" "#PWR09"
 			(at 83.82 110.49 0)
@@ -2899,12 +2901,11 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 76.2 110.4899 90)
+			(at 78.74 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2947,6 +2948,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 100.33 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a8a9c3e-4c0d-40db-981d-9a231ed84a1d")
+		(property "Reference" "#PWR020"
+			(at 100.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38d1c956-201e-4485-8403-d33cdd4f4131")
+		)
+		(instances
+			(project "Thermometer_schema"
+				(path "/aaa9013f-d8a3-4f2f-b2b1-48422a830054"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 146.05 110.49 90)
 		(unit 1)
@@ -2954,9 +3021,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "2bfddf1c-a0ea-484a-ab2c-56948d32bffb")
 		(property "Reference" "R4"
-			(at 146.05 104.394 90)
+			(at 146.05 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,7 +3032,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 146.05 106.68 90)
+			(at 146.05 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,12 +3169,11 @@
 			)
 		)
 		(property "Value" "BatRef"
-			(at 116.84 35.5599 90)
+			(at 119.38 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3304,11 +3371,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 91.44 0)
+			(at 175.26 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3422,16 +3490,17 @@
 	)
 	(symbol
 		(lib_id "Converter_DCDC:ITX0509SA")
-		(at 162.56 60.96 0)
+		(at 165.1 60.96 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "646cde7e-693c-4688-b8f3-527f4d9d6c9a")
 		(property "Reference" "PS1"
-			(at 162.56 50.8 0)
+			(at 165.1 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3508,7 @@
 			)
 		)
 		(property "Value" "TP4056"
-			(at 162.56 53.34 0)
+			(at 165.1 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3516,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_XP_POWER-ITXxxxxSA_THT"
-			(at 189.23 67.31 0)
+			(at 191.77 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,7 +3526,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.xppower.com/pdfs/SF_ITX.pdf"
-			(at 135.89 68.58 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +3536,7 @@
 			)
 		)
 		(property "Description" "XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Fully Regulated Single Output Voltage 9V, ±666mA, 5V Input Voltage, SIP"
-			(at 162.56 60.96 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,6 +3636,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 133.35 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f6f6165-32ae-480c-85a9-aa4f6424edf9")
+		(property "Reference" "SW3"
+			(at 134.62 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 134.62 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 133.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6555e719-13d5-442d-8aa2-010158533623")
+		)
+		(pin "1"
+			(uuid "e85078f9-d7b6-41a3-a8cc-03b71fbb0124")
+		)
+		(instances
+			(project "Thermometer_schema"
+				(path "/aaa9013f-d8a3-4f2f-b2b1-48422a830054"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 93.98 63.5 0)
 		(unit 1)
@@ -3574,6 +3713,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6fb3b5f3-b529-476a-8157-490ba2d7897f")
 		(property "Reference" "#PWR01"
 			(at 93.98 69.85 0)
@@ -3585,11 +3725,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 68.58 0)
+			(at 91.44 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3633,7 +3774,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 142.24 0)
+		(at 118.11 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3642,7 +3783,7 @@
 		(fields_autoplaced yes)
 		(uuid "7529026e-8f8f-463d-8069-bfd975b32ff0")
 		(property "Reference" "#PWR08"
-			(at 118.11 148.59 0)
+			(at 118.11 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,15 +3792,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 147.32 0)
+			(at 120.65 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 142.24 0)
+			(at 118.11 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +3810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 142.24 0)
+			(at 118.11 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3819,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 142.24 0)
+			(at 118.11 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,6 +3926,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7e8056e8-26cb-40c4-995e-21dc9fc5947f")
 		(property "Reference" "PS2"
 			(at 110.49 50.8 0)
@@ -3855,6 +3998,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 133.35 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8127360b-e3b0-465b-adcb-00ec1f7b69d9")
+		(property "Reference" "#PWR021"
+			(at 133.35 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f4885e7-b0d9-4b27-a998-d41aa7aa914b")
+		)
+		(instances
+			(project "Thermometer_schema"
+				(path "/aaa9013f-d8a3-4f2f-b2b1-48422a830054"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 146.05 93.98 0)
 		(unit 1)
@@ -3865,7 +4074,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b8a9673-5d88-4159-9ad4-c3a733d8d629")
 		(property "Reference" "SW1"
-			(at 146.05 86.36 0)
+			(at 146.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +4082,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 146.05 88.9 0)
+			(at 146.05 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,6 +4139,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8d1346be-871e-429d-8b4a-b9a36a247dcf")
 		(property "Reference" "#PWR011"
 			(at 130.81 50.8 0)
@@ -3941,11 +4151,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 49.53 0)
+			(at 133.35 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4061,6 +4272,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "91bdc32f-f40a-414c-9437-5cc0c46c7c7e")
 		(property "Reference" "J1"
 			(at 194.31 59.6899 0)
@@ -4142,12 +4354,11 @@
 			)
 		)
 		(property "Value" "BatRef"
-			(at 76.2 115.5699 90)
+			(at 78.74 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4184,6 +4395,76 @@
 			(project "Thermometer_schema"
 				(path "/aaa9013f-d8a3-4f2f-b2b1-48422a830054"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 100.33 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0c09aae-c47b-4928-857b-b4ce7d2a8a1b")
+		(property "Reference" "SW2"
+			(at 101.6 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 101.6 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 100.33 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "146bfd11-f214-4ab2-b517-3c206ac816d3")
+		)
+		(pin "1"
+			(uuid "18d7916b-c16f-4a14-bbca-27bb749917f7")
+		)
+		(instances
+			(project "Thermometer_schema"
+				(path "/aaa9013f-d8a3-4f2f-b2b1-48422a830054"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -4327,9 +4608,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a4cbb726-cc28-453b-a19d-3afe694c2585")
 		(property "Reference" "R5"
-			(at 146.05 123.19 90)
+			(at 146.05 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4619,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 146.05 125.476 90)
+			(at 146.05 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,11 +4755,12 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 118.11 74.93 0)
+			(at 120.65 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4527,9 +4810,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b617fb2c-f3cb-49d4-ab08-ad069c9a5232")
 		(property "Reference" "BT1"
-			(at 130.81 58.674 0)
+			(at 142.24 59.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4822,7 @@
 			)
 		)
 		(property "Value" "LiPo 103040"
-			(at 122.428 61.468 0)
+			(at 142.24 61.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,6 +5226,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d1e34a9b-01ed-4634-99ab-9c06b970206b")
 		(property "Reference" "#PWR012"
 			(at 149.86 110.49 0)
@@ -4953,7 +5238,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 157.48 110.4901 90)
+			(at 157.48 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,9 +5293,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "dca3ae5c-5204-4f1f-b545-4db7ffcceb8d")
 		(property "Reference" "R1"
-			(at 90.424 105.918 90)
+			(at 90.17 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +5304,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 90.424 108.204 90)
+			(at 90.17 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,11 +5505,12 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 100.33 74.93 0)
+			(at 102.87 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
